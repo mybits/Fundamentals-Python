@@ -69,7 +69,11 @@ def is_valid_sequence(dna):
     True
     """
     
-   
+    for char in dna:
+        if not (char in 'ATCG'):
+            return False
+
+    return True
 
 
 def insert_sequence(dna1, dna2, i):
@@ -129,8 +133,8 @@ def get_complementary_sequence(dna):
     
     cn = ''
     for n in dna:
-        get_complement(n)
-        cn = n + cn
+        
+        cn = cn + get_complement(n)
 
     return cn
     
