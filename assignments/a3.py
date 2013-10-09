@@ -11,7 +11,7 @@ A word list is a list of str. For example, the list of words
     SOB
     TO
 is represented as the list
-    ['ANT', 'BOX', 'SOB', 'TO']
+   lista_wyrazow = ['ANT', 'BOX', 'SOB', 'TO']
 """
 
 
